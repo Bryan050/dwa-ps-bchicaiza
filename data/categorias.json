@@ -1,0 +1,9 @@
+{
+    "categorias": [{
+        "nombre": "Pizza"
+    }, {
+       "nombre" : "Burger"
+    }, {
+        "nombre": "Empanada"
+    }]
+}

@@ -1,0 +1,27 @@
+{
+    "platos": [{
+        "nombre": "Pizza 4 estaciones",
+        "precio": 25.45,
+        "descripcion": "1/4 Jamón, 1/4 salami, 1/4 tocino, 1/4 chorizo."
+    }, {
+        "nombre": "Pizza Hawaiana",
+        "precio": 19.99,
+        "descripcion": "Jamón, piña."
+    }, {
+        "nombre": "Hamburguesa sencilla",
+        "precio": 2.75,
+        "descripcion": "Una carne, tomate, lechuga, salsas, acompañada con papas fritas."
+    },{
+        "nombre": "Hamburguesa con queso",
+        "precio": 3.99,
+        "descripcion": "Una carne, queso, lechuga, tomate, salsas, acompañado con papas fritas."
+    },{
+        "nombre": "Empanada de morocho",
+        "precio": 1.65,
+        "descripcion": "Deliciosa y crujiente masa de morocho, rellena de carne molida, arvejas, zanahoria y arroz."
+    }, {
+        "nombre": "Empanada de verde con queso",
+        "precio": 1.85,
+        "descripcion": "Frescas hechas con puro verde, y delicioso queso."
+    }]
+}

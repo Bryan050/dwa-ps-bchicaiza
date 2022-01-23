@@ -1,0 +1,238 @@
+/*CSS para todos los  elemnetos*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.img-redondeada{
+    border-radius: 15px;
+}
+
+.texto-derecha{
+    text-align: right;
+}
+
+.texto-centro{
+    text-align: center;
+}
+
+.limpiar{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #cf8400;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff3f01;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-principal{
+    background-color: #ff3e00;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.btn-principal:hover{
+    background-color: #d61802;
+    color: white;
+}
+
+h2{
+    color: #222222;
+    font-size: 2rem;
+    padding-bottom: 2%;
+}
+
+h3{
+    font-size: 1.5rems;
+}
+
+.contenedor-flotante{
+    position: relative;
+}
+
+.texto-flotante{
+    position: absolute;
+    bottom: 50px;
+    left: 37%;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+/*CSS para sección navbar*/
+.logo{
+    width: 10%;
+    float: left;
+}
+
+.menu{
+    line-height: 60px;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/*CSS sección búsqueda*/
+.busqueda{
+    background-image: url("/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.busqueda input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+/*CSS sección Categorias*/
+.categorias{
+    padding: 4% 0;
+}
+
+.caja-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/*CSS sección menu*/
+.menu-platos{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+.menu-platos-item{
+    background-color: white;
+    width: 43%;
+    padding: 1%;
+    margin: 2%;
+    float: left;
+    border-radius: 15px;
+}
+
+.img-menu{
+    width: 20%;
+    float: left;
+}
+
+.desc-menu{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.precio-plato{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.desc-plato{
+    font-size: 0.8rem;
+    color: #747d8c;
+}
+
+/*CSS sección redes sociales*/
+.sociales ul{
+    list-style-type: none;
+}
+
+.sociales ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/*CSS para pantallas pequeñas*/
+@media only screen and (max-width: 768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .menu ul{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .busqueda input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 2%;
+    }
+    
+    .btn{
+        width: 90%;
+        padding: 2%;
+    }
+
+    .caja-3{
+        width: 95%;
+        margin: 4% auto;
+    }
+
+    .menu-platos-item{
+        width: 95%;
+        padding: 5% 0 0 0;
+        margin: 4% auto;
+        border-radius: 15px;
+    }
+
+    .img-menu{
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 3%;
+    }
+
+    .desc-menu{
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 7%;
+    }
+
+    .sociales ul li a img{
+        width: 13%;
+    }
+
+    .footer{
+        font-size: 0.8rem;
+    }
+}

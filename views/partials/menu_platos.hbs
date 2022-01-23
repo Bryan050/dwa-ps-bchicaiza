@@ -1,0 +1,105 @@
+<section class="menu-platos">
+  <div class="contenedor">
+    <h2 class="texto-centro">Nuestros Platos</h2>
+    {{#each (getPlatos)}}
+      <div class="menu-platos-item">
+        <div class="img-menu">
+          <img
+            src="images/menu-pizza.jpg"
+            alt="Pizza Hawayana"
+            class="img-responsive img-redondeada"
+          />
+        </div>
+
+        <div class="desc-menu">
+          <h4>{{this.0.nombre}}</h4>
+          <p class="precio-plato">${{this.0.precio}}</p>
+          <p class="desc-plato">{{this.0.descripcion}}</p>
+          <br />
+          <a href="#" class="btn btn-principal">Ordenar</a>
+        </div>
+      </div>
+      <div class="menu-platos-item">
+        <div class="img-menu">
+          <img
+            src="images/menu-pizza.jpg"
+            alt="Pizza Hawayana"
+            class="img-responsive img-redondeada"
+          />
+        </div>
+        <div class="desc-menu">
+          <h4>{{this.1.nombre}}</h4>
+          <p class="precio-plato">${{this.1.precio}}</p>
+          <p class="desc-plato">{{this.1.descripcion}}</p>
+          <br />
+          <a href="#" class="btn btn-principal">Ordenar</a>
+        </div>
+      </div>
+      <div class="menu-platos-item">
+        <div class="img-menu">
+          <img
+            src="images/menu-pizza.jpg"
+            alt="Pizza Hawayana"
+            class="img-responsive img-redondeada"
+          />
+        </div>
+        <div class="desc-menu">
+          <h4>{{this.2.nombre}}</h4>
+          <p class="precio-plato">${{this.2.precio}}</p>
+          <p class="desc-plato">{{this.2.descripcion}}</p>
+          <br />
+          <a href="#" class="btn btn-principal">Ordenar</a>
+        </div>
+      </div>
+      <div class="menu-platos-item">
+        <div class="img-menu">
+          <img
+            src="images/menu-pizza.jpg"
+            alt="Pizza Hawayana"
+            class="img-responsive img-redondeada"
+          />
+        </div>
+        <div class="desc-menu">
+          <h4>{{this.3.nombre}}</h4>
+          <p class="precio-plato">${{this.3.precio}}</p>
+          <p class="desc-plato">{{this.3.descripcion}}</p>
+          <br />
+          <a href="#" class="btn btn-principal">Ordenar</a>
+        </div>
+      </div>
+      <div class="menu-platos-item">
+        <div class="img-menu">
+          <img
+            src="images/menu-pizza.jpg"
+            alt="Pizza Hawayana"
+            class="img-responsive img-redondeada"
+          />
+        </div>
+        <div class="desc-menu">
+          <h4>{{this.4.nombre}}</h4>
+          <p class="precio-plato">${{this.4.precio}}</p>
+          <p class="desc-plato">{{this.4.descripcion}}</p>
+          <br />
+          <a href="#" class="btn btn-principal">Ordenar</a>
+        </div>
+      </div>
+      <div class="menu-platos-item">
+        <div class="img-menu">
+          <img
+            src="images/menu-pizza.jpg"
+            alt="Pizza Hawayana"
+            class="img-responsive img-redondeada"
+          />
+        </div>
+        <div class="desc-menu">
+          <h4>{{this.5.nombre}}</h4>
+          <p class="precio-plato">${{this.5.precio}}</p>
+          <p class="desc-plato">{{this.5.descripcion}}</p>
+          <br />
+          <a href="#" class="btn btn-principal">Ordenar</a>
+        </div>
+      </div>
+    {{/each}}
+    <div class="limpiar"></div>
+  </div>
+</section>
